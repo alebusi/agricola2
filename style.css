@@ -16,21 +16,24 @@
 }
 
 .risorsa {
+    margin: 2vh;
     width: 16vh;
     height: 16vh;
     text-align: center;
-    font-size: 10vh;
+    font-size: 12vh;
+    font-weight: bold;
     border: solid 12px black;
     border-radius: 10vh;
+    letter-spacing: -2px;
 }
 
 .button {
     width: 5vh;
     height: 5vh;
     background-color: #000000;
-    margin-top: 5vh;
-    margin-bottom: 10vh;
-    margin-left: 6vh;
+    margin-top: 3vh;
+    margin-bottom: 8vh;
+    margin-left: 9vh;
 }
 
 /*.button:hover {background-color: red;}*/
@@ -44,7 +47,7 @@
 }
 
 .tabellone {
-    margin: 400px auto;
+    margin: 8vh auto;
 }
 
 .spazio {
