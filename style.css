@@ -20,9 +20,8 @@
     height: 16vh;
     text-align: center;
     font-size: 10vh;
-    padding-top: 3vh;
     border: solid 12px black;
-    border-radius: 10vh;
+    border-radius: 8vh;
 }
 
 .button {
@@ -31,6 +30,7 @@
     background-color: #000000;
     margin-top: 5vh;
     margin-botton: 10vh;
+    margin-left: 5vh;
 }
 
 /*.button:hover {background-color: red;}*/
