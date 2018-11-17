@@ -1,6 +1,6 @@
 .wrapper {
-    width: 400px;
-    margin: 120px auto;
+    width: 80vw;
+    margin: 10vh auto;
     background-color: white;
 }
 
@@ -16,25 +16,20 @@
 }
 
 .risorsa {
-    width: 200px;
-    /*height: 100px;*/
-    background-color: #ff0000;
+    width: 16vh;
+    height: 16vh;
     text-align: center;
-    font-size: 100px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    margin-top: 20px;
+    font-size: 10vh;
+    padding-top: 3vh;
+    border: solid 12px black;
+    border-radius: 10vh;
 }
 
 .button {
-    width: 120px;
-    height: 100px;
-    background-color: #ff0000;
-    opacity: 0.5;
-    /*border: 5px solid red;*/
-    font-size: 15px;
-    text-align: center;
-    margin-left: 60px;
+    width: 5vh;
+    height: 5vh;
+    background-color: #000000;
+    margin-top: 5vh;
     border-radius: 120px;
 }
 
@@ -77,32 +72,32 @@
 }
 
 #legno {
-  background-color: #824200; color: #ffffff; 
+  border-color: #824200; color: #ffffff; 
 }
 #argilla {
-  background-color: #C21212; color: #ffffff; 
+  border-color: #C21212; color: #ffffff; 
 }
 #pietra {
-  background-color: #000000; color: #ffffff; 
+  border-color: #000000; color: #ffffff; 
 }
 #canna {
-  background-color: #FFE1B0; 
+  border-color: #FFE1B0; 
 }
 #grano {
-  background-color: #FFFF00; color: #000000; 
+  border-color: #FFFF00; color: #000000; 
 }
 #ortaggio {
-  background-color: #ffa420; color: #000000; 
+  border-color: #ffa420; color: #000000; 
 }
 #cibo {
-  background-color: #00C200; color: #000000;
+  border-color: #00C200; color: #000000;
 }
 #pecora {
-  background-color: #F1F1B4; color: #000000; border-radius: 250px;
+  border-color: #F1F1B4; color: #000000;
 }
 #cinghiale {
-  background-color: #000000; color: #ffffff; border-radius: 250px;
+  border-color: #000000; color: #ffffff;
 }
 #bestiame {
-  background-color: #BF4100; color: #ffffff; border-radius: 250px;
+  border-color: #BF4100; color: #ffffff;
 }
