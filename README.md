@@ -1,2 +1,2 @@
 # agricola
-Tabelllone gioco agricola
+Tabellone gioco agricola
