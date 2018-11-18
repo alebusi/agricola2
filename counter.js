@@ -4,7 +4,12 @@ var tess = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 function myfunc(id,i,ind) {
   tess[ind]+=i;
   v=tess[ind];
-  document.getElementById(id).innerHTML = v;
+  if (v == 0) {
+    document.getElementById(id).innerHTML = "-";
+  }
+  else { 
+    document.getElementById(id).innerHTML = v;
+  }
   if (i == 1) {
     if ( id == "pecora" ) {
        var aumenta = new Audio('pecora.mp3');
