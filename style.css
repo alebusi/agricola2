@@ -1,5 +1,5 @@
 .wrapper {
-    width: 80vw;
+    width: 111vh;
     margin: 10vh auto;
     background-color: white;
 }
@@ -16,7 +16,7 @@
 }
 
 .risorsa {
-    width: 18vh;
+    width: 22vh;
     text-align: center;
     font-family: Arial, Sans-Serif;
     font-size: 12vh;
