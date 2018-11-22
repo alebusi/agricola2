@@ -50,18 +50,18 @@ table#t01 td {
 }
 
 .largo {
-   height: 1.5vh;
+   height: 2vh;
    background-color: white;
 }
 
 .largo_nero {
-   height: 1.5vh;
+   height: 2vh;
    background-color: black;
 }
 
 .stretto {
-   height: 1.5vh;
-   width: 1.5vh;
+   height: 2vh;
+   width: 2vh;
    background-color: white;
 }
 
@@ -82,26 +82,26 @@ table#t01 td {
 }
 
 .spazio {
-    width: 20.8vh;
-    height: 20.8vh;
+    width: 20vh;
+    height: 20vh;
     background-color: grey;
 }
 
 .stanza {
-    width: 20.8vh;
-    height: 20.8vh;
+    width: 20vh;
+    height: 20vh;
     background-color: #ffa420;
 }
 
 .campo {
-    width: 20.8vh;
-    height: 20.8vh;
+    width: 20vh;
+    height: 20vh;
     background-color: #BF4100;
 }
 
 .pascolo {
-    width: 20.8vh;
-    height: 20.8vh;
+    width: 20vh;
+    height: 20vh;
     background-color: #00C200;
 }
 
