@@ -46,7 +46,23 @@ table#t00 td {
 }
 
 table#t01 td {
-    border: 1vh solid black;
+    border: 0;
+}
+
+.largo {
+   height: 1.5vh;
+   background-color: white;
+}
+
+.largo_nero {
+   height: 1.5vh;
+   background-color: black;
+}
+
+.stretto {
+   height: 1.5vh;
+   width: 1.5vh;
+   background-color: white;
 }
 
 .trasparente {
@@ -68,7 +84,7 @@ table#t01 td {
 .spazio {
     width: 20.8vh;
     height: 20.8vh;
-    background-color: #ffffff;
+    background-color: grey;
 }
 
 .stanza {
