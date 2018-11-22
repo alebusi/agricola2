@@ -48,3 +48,15 @@ function myfunc2(div) {
   var suona = new Audio('campo.mp3');
   suona.play();
 }
+
+function mysel(div) {
+  var className = div.getAttribute("class");
+  if (className=="largo") {
+    div.className = "largo_nero";
+    }
+  else if (className=="largo_nero") {
+    div.className = "largo";
+    }
+  var suona = new Audio('campo.mp3');
+  suona.play();
+}
