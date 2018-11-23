@@ -79,12 +79,13 @@ table#t01 td {
 
 .tabellone {
     margin: 8vh auto;
+    width: 112vh;
 }
 
 .spazio {
     width: 20vh;
     height: 20vh;
-    background-color: #b2b2b2;
+    background-color: #00C200;
 }
 
 .stanza {
@@ -103,6 +104,69 @@ table#t01 td {
     width: 20vh;
     height: 20vh;
     background-color: #00C200;
+}
+
+.off {
+    position: relative;
+    float: right;
+    width: 10vh;
+    height: 10vh;
+    border: solid 1vh red;
+    margin-top: 6vh;
+    margin-right: 2vh;
+}
+
+.on {
+    position: relative;
+    float: right;
+    width: 10vh;
+    height: 10vh;
+    border: solid 1vh red;
+    margin-top: 6vh;
+    margin-right: 2vh;
+    background-color: red;
+}
+
+.grano_3 {
+    width: 20vh;
+    height: 20vh;
+    background-color: #BF4100;
+    background-image: radial-gradient(#FFFF00, #FFFF00, #FFFF00, #FFFF00, #FFFF00, #FFFF00, #BF4100, #BF4100, #BF4100, #BF4100);
+}
+
+.grano_2 {
+    width: 20vh;
+    height: 20vh;
+    background-color: #BF4100;
+    background-image: radial-gradient(#FFFF00, #FFFF00, #FFFF00, #FFFF00, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+}
+
+.grano_1 {
+    width: 20vh;
+    height: 20vh;
+    background-color: #BF4100;
+    background-image: radial-gradient(#FFFF00, #FFFF00, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+}
+
+.ortaggio_2 {
+    width: 20vh;
+    height: 20vh;
+    background-color: #BF4100;
+    background-image: radial-gradient(#ffa420, #ffa420, #ffa420, #ffa420, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+}
+
+.ortaggio_1 {
+    width: 20vh;
+    height: 20vh;
+    background-color: #BF4100;
+    background-image: radial-gradient(#ffa420, #ffa420, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+}
+
+.stalla {
+    width: 20vh;
+    height: 20vh;
+    background-color: #BF4100;
+    background-image: radial-gradient(#000000, #000000, #000000, #000000, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200);
 }
 
 #legno {
