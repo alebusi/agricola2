@@ -37,7 +37,7 @@ function myfunc2(div) {
   if (className=="spazio") {
     div.className = "stanza";
     }
-  if (className=="stanza") {
+  else if (className=="stanza") {
     div.className = "stalla";
     }
   else if (className=="stalla") {
