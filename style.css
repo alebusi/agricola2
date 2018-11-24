@@ -91,13 +91,13 @@ table#t01 td {
 .stanza {
     width: 20vh;
     height: 20vh;
-    background-color: #ffa420;
+    background-color: #0000FF;
 }
 
 .campo {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
+    background-color: #065535;
 }
 
 .pascolo {
@@ -107,66 +107,66 @@ table#t01 td {
 }
 
 .off {
-    position: relative;
     float: right;
     width: 10vh;
-    height: 10vh;
+    height: 5vh;
     border: solid 1vh red;
-    margin-top: 6vh;
+    margin-top: 4vh;
     margin-right: 2vh;
+    margin-bottom: 6vh;
 }
 
 .on {
-    position: relative;
     float: right;
     width: 10vh;
-    height: 10vh;
+    height: 5vh;
     border: solid 1vh red;
-    margin-top: 6vh;
+    margin-top: 4vh;
     margin-right: 2vh;
     background-color: red;
+    margin-bottom: 6vh;
 }
 
 .grano_3 {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
-    background-image: radial-gradient(#FFFF00, #FFFF00, #FFFF00, #FFFF00, #FFFF00, #FFFF00, #BF4100, #BF4100, #BF4100, #BF4100);
+    background-color: #065535;
+    background-image: radial-gradient(#FFFF00, #FFFF00, #FFFF00, #FFFF00, #FFFF00, #FFFF00, #065535, #065535, #065535, #065535);
 }
 
 .grano_2 {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
-    background-image: radial-gradient(#FFFF00, #FFFF00, #FFFF00, #FFFF00, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+    background-color: #065535;
+    background-image: radial-gradient(#FFFF00, #FFFF00, #FFFF00, #FFFF00, #065535, #065535, #065535, #065535, #065535, #065535);
 }
 
 .grano_1 {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
-    background-image: radial-gradient(#FFFF00, #FFFF00, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+    background-color: #065535;
+    background-image: radial-gradient(#FFFF00, #FFFF00, #065535, #065535, #065535, #065535, #065535, #065535, #065535, #065535);
 }
 
 .ortaggio_2 {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
-    background-image: radial-gradient(#ffa420, #ffa420, #ffa420, #ffa420, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+    background-color: #065535;
+    background-image: radial-gradient(#fa8072, #fa8072, #fa8072, #fa8072, #065535, #065535, #065535, #065535, #065535, #065535);
 }
 
 .ortaggio_1 {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
-    background-image: radial-gradient(#ffa420, #ffa420, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100, #BF4100);
+    background-color: #065535;
+    background-image: radial-gradient(#fa8072, #fa8072, #065535, #065535, #065535, #065535, #065535, #065535, #065535, #065535);
 }
 
 .stalla {
     width: 20vh;
     height: 20vh;
-    background-color: #BF4100;
-    background-image: radial-gradient(#000000, #000000, #000000, #000000, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200);
+    background-color: #065535;
+    background-image: radial-gradient(#000000, #000000, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200);
 }
 
 #legno {
