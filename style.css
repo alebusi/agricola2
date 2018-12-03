@@ -94,6 +94,18 @@ table#t01 td {
     background-color: #0000A4;
 }
 
+.stanza_argilla {
+    width: 20vh;
+    height: 20vh;
+    background-color: red;
+}
+
+.stanza_pietra {
+    width: 20vh;
+    height: 20vh;
+    background-color: black;
+}
+
 .campo {
     width: 20vh;
     height: 20vh;
