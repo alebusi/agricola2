@@ -118,7 +118,7 @@ table#t01 td {
     background-color: #00C200;
 }
 
-.off {
+.standard {
     float: right;
     width: 10vh;
     height: 5vh;
@@ -128,7 +128,7 @@ table#t01 td {
     margin-bottom: 6vh;
 }
 
-.on {
+.steccati {
     float: right;
     width: 10vh;
     height: 5vh;
@@ -136,6 +136,17 @@ table#t01 td {
     margin-top: 4vh;
     margin-right: 2vh;
     background-color: red;
+    margin-bottom: 6vh;
+}
+
+.edilizia {
+    float: right;
+    width: 10vh;
+    height: 5vh;
+    border: solid 1vh red;
+    margin-top: 4vh;
+    margin-right: 2vh;
+    background-color: black;
     margin-bottom: 6vh;
 }
 
