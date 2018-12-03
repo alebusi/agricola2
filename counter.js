@@ -33,6 +33,7 @@ function myfunc(id,i,ind) {
 
 function myfunc2(div) {
   var className = div.getAttribute("class");
+  var suona = new Audio('campo.mp3');
   if (document.getElementById("controllo").className=="standard") { 
     if (className=="spazio") {
       div.className = "campo";
@@ -54,6 +55,9 @@ function myfunc2(div) {
       }
     else {
       div.className = "spazio";
+      }
+    suona.play();
+  }
   else if (document.getElementById("controllo").className=="edilizia") {
     if (className=="spazio") {
       div.className = "stanza";
@@ -67,9 +71,10 @@ function myfunc2(div) {
     else if (className=="stanza_argilla") {
       div.className = "stanza_pietra";
       }
-  }
-  var suona = new Audio('campo.mp3');
-  suona.play();
+    else if (className=="stanza_pietra") {
+      div.className = "spazio";
+      }
+    suona.play();
   }
 }
 
