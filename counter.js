@@ -37,44 +37,54 @@ function myfunc2(div) {
   if (document.getElementById("controllo").className=="standard") { 
     if (className=="spazio") {
       div.className = "campo";
+      suona.play();
       }
     else if (className=="campo") {
       div.className = "grano_3";
+      suona.play();
       }
     else if (className=="grano_3") {
       div.className = "grano_2";
+      suona.play();
       }
     else if (className=="grano_2") {
       div.className = "grano_1";
+            suona.play();
       }
     else if (className=="grano_1") {
       div.className = "ortaggio_2";
+            suona.play();
       }
     else if (className=="ortaggio_2") {
       div.className = "ortaggio_1";
+            suona.play();
       }
-    else {
+    else if (className=="ortaggio_1") {
       div.className = "spazio";
+      suona.play();
       }
-    suona.play();
   }
   else if (document.getElementById("controllo").className=="edilizia") {
     if (className=="spazio") {
       div.className = "stanza";
+      suona.play();
       }
     else if (className=="stanza") {
       div.className = "stalla";
+      suona.play();
       } 
     else if (className=="stalla") {
       div.className = "stanza_argilla";
+      suona.play();
       }
     else if (className=="stanza_argilla") {
       div.className = "stanza_pietra";
+      suona.play();
       }
     else if (className=="stanza_pietra") {
       div.className = "spazio";
+      suona.play();
       }
-    suona.play();
   }
 }
 
