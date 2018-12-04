@@ -88,22 +88,32 @@ table#t01 td {
     background-color: #00C200;
 }
 
+.stalla {
+    width: 20vh;
+    height: 20vh;
+    background-color: #065535;
+    background-image: radial-gradient(#000000, #000000, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200);
+}
+
 .stanza {
     width: 20vh;
     height: 20vh;
-    background-color: #0000A4;
+    background-color: #065535;
+    background-image: radial-gradient(#824200, #000000);
 }
 
 .stanza_argilla {
     width: 20vh;
     height: 20vh;
-    background-color: red;
+    background-color: #065535;
+    background-image: radial-gradient(red, #000000);
 }
 
 .stanza_pietra {
     width: 20vh;
     height: 20vh;
-    background-color: black;
+    background-color: #065535;
+    background-image: radial-gradient(grey, #000000);
 }
 
 .campo {
@@ -183,13 +193,6 @@ table#t01 td {
     height: 20vh;
     background-color: #065535;
     background-image: radial-gradient(#fa8072, #fa8072, #065535, #065535, #065535, #065535, #065535, #065535, #065535, #065535);
-}
-
-.stalla {
-    width: 20vh;
-    height: 20vh;
-    background-color: #065535;
-    background-image: radial-gradient(#000000, #000000, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200, #00C200);
 }
 
 #legno {
